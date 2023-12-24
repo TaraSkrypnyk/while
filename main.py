@@ -13,6 +13,5 @@ try:
             j += 1
         print()
         i += 1
-
 except Exception as e:
     print (e)
