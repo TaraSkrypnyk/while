@@ -8,25 +8,14 @@ try:
         while j < y:
             if ((i + j) <= (p - 1)) and (i <= j) :
                 print("* ", end="")
+            elif ((i + j) >= (p - 1)) and (i >= j):
+                print("* ", end="")
+
             else:
                 print("  ", end="")
             j += 1
         print()
         i += 1
-
-
-
-    # while i < x:
-    #     j = 0
-    #     while j < y:
-    #         if ((i + j) >= (p - 1)) and (i >= j):
-    #             print("[" + str(i) + " " + str(j) + "]", end="")
-    #
-    #         else:
-    #             print("     ", end="")
-    #         j += 1
-    #     print()
-    #     i += 1
 
 except Exception as e:
     print (e)
