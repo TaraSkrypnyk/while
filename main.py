@@ -10,10 +10,10 @@ try:
                 print("     ", end="")
 
             elif (i <= j):
-                print("[" + str(i) + " " + str(j) + "]", end="")
+                print("* ", end="")
 
             else:
-                print("     ", end="")
+                print("  ", end="")
             j += 1
         print()
         i += 1
